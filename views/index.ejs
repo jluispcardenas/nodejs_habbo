@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Empecemos</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+  <div id="connections"></div>
+
+  <div id="paper" width="1900" height="1000">
+  	<div id="character"></div>
+	<div id="bubble"></div>
+  </div>
+  <form onsubmit="javascript:return false;">
+  <input type="text" id="chat" autocomplete="off" placeholder="Escribe tu mensaje aqui" />
+  </form>
+
+  <hgroup id="instructions">
+    <h1>¡Empecemos!</h1>
+    <h2>Utiliza las flechas para mover tu personaje</h2>
+    <h3>Si quieres platicar utiliza la caja de texto de abajo</h3>
+  </hgroup>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="javascripts/script.js"></script>
+
+</body>
+</html>
